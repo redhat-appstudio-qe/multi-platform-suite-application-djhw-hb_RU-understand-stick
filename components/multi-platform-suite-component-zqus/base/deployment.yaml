@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: multi-platform-suite-component-zqus
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/multi-platform-build-tenant/multi-platform-suite-application-djhw/multi-platform-suite-component-zqus@sha256:18ae26c1d408667e2c1703988b784d090e3770c915d7746fc90ad888538ab9f0
         name: my-go
         ports:
         - containerPort: 8081
