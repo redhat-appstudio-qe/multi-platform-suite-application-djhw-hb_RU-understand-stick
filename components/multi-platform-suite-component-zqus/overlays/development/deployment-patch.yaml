@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-platform-suite-component-zqus
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/multi-platform-build-tenant/multi-platform-suite-application-djhw/multi-platform-suite-component-zqus@sha256:18ae26c1d408667e2c1703988b784d090e3770c915d7746fc90ad888538ab9f0
+        name: my-go
+        resources: {}
+status: {}
